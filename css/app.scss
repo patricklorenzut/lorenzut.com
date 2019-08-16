@@ -1,40 +1,152 @@
 ---
 ---
 
-/*
-*******
-None of these variable are being imported anywhere, they're just here for your convenience.
-*******
-*/
+// start content
 
-body{
-	margin: 0;
-}
-
-// Some Style Variables
-$primary-color: #36465f;
-$secondary-color: #464646;
-$error: #de3535;
-$success: #d5f5d7;
-
-$max-width: 960px;
-
-// Breakpoints. Use these in your media queries.
-$babybear: 321px;
-$mamabear: 769px;
-$papabear: 1140px;
-$monsterbear: 1300px;
-
-$font-size: 16px;
-$font-family: Helvetica, sans-serif;
-$alt-font-family: monospace;
-$font-color: #353535;
-
-/* Social Icons */
-$twitter: #78cdf0 !default;
-$facebook: #537bbd !default;
-$instagram: #517fa4 !default;
-$youtube: #d34836 !default;
-$snapchat: #fffc00 !default;
-$pinterest:	#cb2027 !default;
-$google: #dd4b39 !default;
+body {
+	font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-height: 2em; padding: 12px; box-sizing: border-box; color: #333; overflow: auto;
+	background: #61ff00; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #61ff00 0%, #61ff00 50%, #ff4ef5 50%, #ff4ef5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#61ff00), color-stop(50%,#61ff00), color-stop(50%,#ff4ef5), color-stop(100%,#ff4ef5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61ff00', endColorstr='#ff4ef5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+	
+  
+  }
+  
+  #weerd-background{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	animation: weerd-background 3s;
+  }
+  
+  #weerd-background img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+  }
+  
+  @keyframes weerd-background {
+	0% {
+	  top: 100%;
+	}
+	50%{
+	  top: 100%;
+	}
+	100% {
+	  top: 0;
+	}
+  }
+  
+  
+  
+  body, html {height: 100%;padding: 0; margin: 0;}
+  
+  .wrapper {box-sizing: border-box; height: 100%; overflow: auto; }
+  
+  
+  a {text-decoration: none; color: #333; border-bottom: 3px solid #0068FF;}
+  a:hover {color: #0068FF}
+  p {font-weight: 200; font-size: 20px;}
+  
+  .name {background: white; font-family: Montserrat; font-size: 45px; text-transform: none; font-weight: 900; padding: 12px; border: 4px solid #0068FF; color: #0068FF; display: inline-block;}
+  
+  .container {margin: 0 auto; max-width: 700px; padding: 100px 12px 50px; overflow: auto;}
+  article{
+	  background: white;
+	  padding: 17px;
+  }
+  @media screen and (min-width: 768px){
+	article {padding: 34px;margin-top: 20px;}
+  }
+  
+  hr {border-bottom: 3px solid #0068FF;}
+  
+  .meta {text-transform: uppercase; font-family: Arial, Courier New, Source Sans Pro, sans-serif; font-size: 10px; letter-spacing: .15em;}
+  .meta a:hover {color: #333;}
+  
+  .inline-list {list-style: none; margin: 0; padding: 0;}
+  .inline-list li {display: inline-block;}
+  header{
+	text-align: center;
+  }
+  footer .inline-list li {margin-right: 40px;}
+  footer a {    border: none;
+	  color: white;
+	  font-size: 11px;
+	  background: #0068FF;}
+  
+  
+  
+  
+  
+  @media screen and (min-width: 768px){
+	footer {    
+	  margin: 0 auto;
+	  position: absolute;
+	  bottom: 15px;
+	  right: 0;
+	}
+	#face{
+	  position: absolute;
+	  left: -40px;
+	  bottom: 0;
+	  max-width: 350px;
+	}
+  }
+  
+  @media screen and (max-width: 1000px){
+	.container{
+	  padding-top: 60px;
+	}
+  }
+  
+  @media screen and (max-width: 767px){
+	.container{
+	  padding: 60px 12px 0px;
+	}
+	footer{
+  
+	}
+	#face{
+	  max-width: 70%;
+	  margin: 50px auto 0;
+	}
+  }
+  
+  img{
+	max-width: 100%;
+  }
+  
+  #face img{
+	display: block;
+	animation: spinny-face 0.5s infinite;
+	animation-direction: alternate;
+  }
+  
+  @keyframes spinny-face {
+	0% {
+	  -webkit-transform: scaleX(1);
+	  transform: scaleX(1);
+	}
+	100% {
+	  -webkit-transform: scaleX(-1);
+	  transform: scaleX(-1);
+	}
+  }
+  
+  
+  article p{
+	margin: 0 0 1.5em;
+  }
+  article p:last-child{
+	margin-bottom: 0;
+  }
