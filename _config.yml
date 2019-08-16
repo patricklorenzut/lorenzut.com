@@ -1,6 +1,6 @@
 # Site settings
 title: Loren Zut
-url: "" # The base hostname & protocol for your site. Use it if you need absolute URL's
+url: "https://lorenzut.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
