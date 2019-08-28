@@ -4,21 +4,27 @@
 // start content
 
 body {
-	font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-height: 2em; padding: 12px; box-sizing: border-box; color: #333; overflow: auto;
-	background: #61ff00; /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  #61ff00 0%, #61ff00 50%, #ff4ef5 50%, #ff4ef5 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#61ff00), color-stop(50%,#61ff00), color-stop(50%,#ff4ef5), color-stop(100%,#ff4ef5)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* IE10+ */
-	background: linear-gradient(135deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61ff00', endColorstr='#ff4ef5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  
-	
-  
+	font-family: Montserrat, Helvetica Neue, sans-serif; 
+	margin: 0 auto; 
+	line-height: 2em; 
+	padding: 12px; 
+	box-sizing: border-box; 
+	color: #333; 
+	overflow: auto;
+	background: #f9eb73;
+	&.home{
+		background: #61ff00; /* Old browsers */
+		background: -moz-linear-gradient(-45deg,  #61ff00 0%, #61ff00 50%, #ff4ef5 50%, #ff4ef5 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#61ff00), color-stop(50%,#61ff00), color-stop(50%,#ff4ef5), color-stop(100%,#ff4ef5)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(-45deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* IE10+ */
+		background: linear-gradient(135deg,  #61ff00 0%,#61ff00 50%,#ff4ef5 50%,#ff4ef5 100%); /* W3C */
+	}
   }
-  
-  #weerd-background{
+
+#weerd-background{
+	display: none;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -26,13 +32,18 @@ body {
 	bottom: 0;
 	z-index: -1;
 	animation: weerd-background 3s;
-  }
+	img{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+body.home{
+	#weerd-background{
+		display: block;
+	}
+}
   
-  #weerd-background img{
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-  }
   
   @keyframes weerd-background {
 	0% {
@@ -48,7 +59,17 @@ body {
   
   
   
-  body, html {height: 100%;padding: 0; margin: 0;}
+body, html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+@media screen and (min-width: 768px){
+	body{
+		padding-bottom: 60px;
+
+	}
+}
   
   .wrapper {box-sizing: border-box; height: 100%; overflow: auto; }
   
@@ -127,9 +148,16 @@ body {
   }
   
   #face img{
-	display: block;
-	animation: spinny-face 0.5s infinite;
-	animation-direction: alternate;
+	display: block;	
+  }
+
+  body.home{
+	  #face{
+		  img{
+			animation: spinny-face 0.5s infinite;
+			animation-direction: alternate;
+		  }
+	  }
   }
   
   @keyframes spinny-face {
@@ -144,9 +172,9 @@ body {
   }
   
   
-  article p{
+article p{
 	margin: 0 0 1.5em;
-  }
-  article p:last-child{
+}
+article p:last-child{
 	margin-bottom: 0;
-  }
+}
