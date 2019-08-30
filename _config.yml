@@ -1,5 +1,5 @@
 # Site settings
-title: Loren Zut
+title: Patrick Lorenzut
 tagline: A Radically Marginal Human
 url: "https://lorenzut.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
@@ -7,7 +7,7 @@ url: "https://lorenzut.com" # The base hostname & protocol for your site. Use it
 socialimg: /img/social.jpg # be sure to change this image
 
 # Contact
-email: "heylorenzut@gmail.com" # This is my real email address. Please don't email me.
+email: "patrick.lorenzut@gmail.com" # This is my real email address. Please don't email me.
 
 # Use this for production
 sass:

@@ -9,22 +9,15 @@
 {% include head.html %}
 	
 	<body{% if page.slug %} class="{{ page.slug }}"{% endif %}>
-		<div class="wrapper">
-			<div class="container">	
-				{{ content }}
-				<footer>
-					<ul class="meta inline-list">
-						<li><a href="mailto:heylorenzut@gmail.com">email me</a></li>
-					</ul>
-				</footer>
-				<div id="face">
-					<img src="img/loren.png"/>
-				</div>
-			</div>
-					
-		</div>
-		<div id="weerd-background">
-			<img src="img/weerd-bg.jpg"/>
+		<div class="wrapper">				
+			{{ content }}
+			<!--
+			<footer>
+				<ul class="meta inline-list">
+					<li><a href="mailto:patrick.lorenzut@gmail.com">email me</a></li>
+				</ul>
+			</footer>	
+			-->											
 		</div>				
 	</body>
 </html>
