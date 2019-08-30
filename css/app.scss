@@ -333,11 +333,19 @@ section.outline{
 
 .image-wrap{
 	display: block;
+	text-decoration: none;
 	filter: grayscale(80%);
 	&:hover{
 		filter: grayscale(0%);
 	}
 	img{
 		max-width: 100%;
+	}
+	p{
+		margin-top: .25em;
+		font-size: .9em;
+		opacity: .4;
+		color: #333;
+		text-align: center;
 	}
 }
