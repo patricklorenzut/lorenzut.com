@@ -40,11 +40,8 @@ body {
 	}
 }
 
-header#top-header{	
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
+header#top-header{		
+	padding-top: 6em;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.3);
 	background: linear-gradient( 
 		#D22D1F,
@@ -63,8 +60,7 @@ header#top-header{
 	article{		
 		background: white;		
 		padding: 1.5em 2em;
-		margin: 0 auto;	
-		margin-top: 6em;	
+		margin: 0 auto;				
 		z-index: 2;
 		position: relative;
 		width: 94%;
@@ -144,11 +140,18 @@ header#top-header{
 }
 
 @media screen and (min-width: 768px) and (min-height: 768px){
+	div#content{
+		padding-top: 100vh;
+	}
 	#collage-images{
 		display: block;
 	}
 	header#top-header{
 		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
 	}
 
 	#face{
@@ -192,11 +195,6 @@ header#top-header{
 	100% {
 		opacity: 1;
 	}
-}
-
-
-div#content{
-	padding-top: 100vh;
 }
 
 section.chapter{
