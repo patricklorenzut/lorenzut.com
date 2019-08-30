@@ -334,6 +334,7 @@ section.outline{
 .image-wrap{
 	display: block;
 	text-decoration: none;
+	margin-bottom: 3em!important;
 	filter: grayscale(80%);
 	&:hover{
 		filter: grayscale(0%);
@@ -345,6 +346,7 @@ section.outline{
 		margin-top: .25em;
 		font-size: .9em;
 		opacity: .4;
+		line-height: 1.5em;
 		color: #333;
 		text-align: center;
 	}
