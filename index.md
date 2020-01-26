@@ -28,6 +28,6 @@ So, I know the big picture. This site will document my attempt at figuring out t
 
 <p>&nbsp;</p>
 
-{% for thought in site.thoughts %}
-  <p><strong>{{ thought.date | date_to_long_string }}</strong> <a href="{{ thought.url }}">{{ thought.title }}</a></p>
+{% for f in site.fascism %}
+  <p><strong>{{ f.date | date_to_long_string }}</strong> <a href="{{ f.url }}">{{ f.title }}</a></p>
 {% endfor %}

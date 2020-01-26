@@ -15,6 +15,6 @@ sass:
   style: compressed
 
 collections:
-  thoughts:
+  fascism:
     output: true
     permalink: /:collection/:title

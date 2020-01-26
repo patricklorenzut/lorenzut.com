@@ -61,3 +61,7 @@ I want to exist in the world of self-help. Although I contend that title, becaus
     2. Start by saving the long game for later. Right now, create lightweight, very affordable versions of things like Fathom Analytics, Intercom, Canopy, etc as a short term marketing solution to start building interest, and then use that interest to start pitching mental health. I know this seems way out of the way, but it's something that I know how to do, and offers such an incredibly clear marketing path. I think creating "Intentionally Imperfect Software for Brand New Solopreneurs" could be quite successful in its own right.
 
 More soon.
+
+<div class="one-of-many">
+    This is post #1 in <a href="/">Saving the World from Fascism</a>, where I’m documenting my attempt to start and grow a business to help bring mental health to tech.
+</div>
