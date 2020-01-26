@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Why I Want to Save the World From Fascism"
-fulltitle: "Why I Want to Save the World From Fascism" 
 date: "2020-01-25 12:00:00"
 ---
 
