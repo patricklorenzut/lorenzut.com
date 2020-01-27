@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Starting With an Honest Assessment of Who I Am And What I Want"
+title: "Starting With an Honest Assessment of Myself"
 date: "2020-01-26 12:00:00"
 ---
 
-# Starting With an Honest Assessment of Who I Am And What I Want
+# Starting With an Honest Assessment of Myself
 
 The reason I’m so attracted to the mental (and physical) health space, is because - other than believing in its importance - I’m really well equipped to help. Because I can almost certainly resonate with you, whoever you are. Because I’ve been many, many different people over the course of my life.
 
