@@ -25,4 +25,5 @@ plugins:
 
 feed:
   collections:
-    - fascism
+    fascism:
+      path: "/atom.xml"
