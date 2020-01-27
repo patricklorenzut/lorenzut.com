@@ -2,6 +2,7 @@
 title: Patrick Lorenzut
 tagline: A Radically Marginal Human
 url: "https://lorenzut.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+author: "Patrick Lorenzut"
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
@@ -18,3 +19,10 @@ collections:
   fascism:
     output: true
     permalink: /:collection/:title
+
+plugins:
+  - jekyll-feed
+
+feed:
+  collections:
+    - fascism
