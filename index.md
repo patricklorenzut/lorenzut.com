@@ -1,10 +1,11 @@
 ---
 layout: default
-title: "Saving the World From Fascism"
+title: "Patrick Lorenzut"
+fulltitle: "Patrick Lorenzut: A Radically Marginal Human" 
 slug: home
 ---
 
-# Saving the World From Fascism
+# Saving the World From Fascism by Helping Techies Love Themselves
 
 **How?** I'm not quite sure yet. Read on.
 
