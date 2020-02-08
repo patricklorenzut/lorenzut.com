@@ -6,15 +6,13 @@ date: "2020-01-26 12:00:00"
 
 # Starting With an Honest Assessment of Who I Am And What I Want
 
-The reason I’m so attracted to the mental (and physical) health space, is because - other than believing in its importance - I’m really well equipped to help. Because I can almost certainly resonate with you, whoever you are. Because I’ve been many, many different people over the course of my life.
+The reason I’m so attracted to the mental (and physical) health space, is because I’m really well equipped to help. Because I can almost certainly resonate with you, whoever you are. Because I’ve been many, many different people over the course of my life.
 
 I’ve been a maximalist and minimalist, and now live somewhere in between. I’ve made more than $140k for years and also less than $20k for years, and now live somewhere in between. I’ve struggled with different addictions, have been wholly abstinent, and now live somewhere in between. I’ve owned my own house, and also lived out of my car, and have now found the nice balance of renting a room. I was a homebody for most of my life, and now I travel internationally (I’m writing this from Chile), if I’m being honest, a bit more than I’d like, and soon I’ll settle somewhere in between. I know what it’s like to hate my body and to love my body. To be hopelessly stuck in a deadend marriage, and to be fully in love.
 
 In other words: I really freaking love finding the edges. It thrills me and makes me feel alive. And at the same time, I do a lot of work to eventually find something that sort of resembles balance.
 
-And while I’ve benefited from therapy, from life coaching, and from yoga... I’m zero percent woo-woo. I fart, and drink beer, and lift weights. It’s not lost on me that most people I’m trying to reach will be men. And, despite loving to talk about emotions and vulnerability, I’m a pretty damn easy guy for most men to relate to.
-
-So I think I’m perfect for this job.
+I’m the most *genuinely* open-minded person that I know. And I’m the best person at implementing big change that I know.
 
 But of course, I’m majorly flawed.
 
@@ -22,7 +20,7 @@ If you ask me to [rate](https://designingyour.life/) Work, Play, Love, and Healt
 
 Why? Because I’m not good enough. Unless I’m curing cancer, I'm not good enough. And because of this, even when I find something that would otherwise be halfway rewarding, I’m gravitationally pulled to pivot to something MORE rewarding.
 
-On top of that, I’m a perfectionist tinkerer to a HUGE fault. Incredibly good at making beautiful designs, and incredibly bad at leaving them alone. Good at coming up with ideas, and bad at not pivoting away from them. Basically, I'm really good at X, but really bad at accepting that X is good enough, and because of this I'm forever trying to turn X into Y.
+On top of that, I’m a perfectionist tinkerer to a HUGE fault. Incredibly good at making beautiful designs, and incredibly bad at leaving them alone. Good at coming up with ideas, and bad at not pivoting. Basically, I'm really good at X, but really bad at accepting that X is good enough, and because of this I'm forever trying to turn X into Y.
 
 To add to the list:
 
