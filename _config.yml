@@ -11,10 +11,8 @@ email: "patrick.lorenzut@gmail.com" # This is my real email address. Please don'
 
 # Use this for production
 sass:
-  sass_dir: css
+  sass_dir: _css
   style: compressed
 
 collections:
-  thoughts:
-    output: true
-    permalink: /:collection/:title
+  - thoughts
